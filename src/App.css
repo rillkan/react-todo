@@ -1,0 +1,44 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 120px;
+  margin-bottom: 6px;
+  border-bottom: 4px solid #4D4D4D;
+  width: 98%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-title {
+  color: #4D4D4D;
+  font-size: 56px;
+  height: fit-content;
+  align-self: center;
+  font-family: 'Open Sans';
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.header-add-task {
+  background-color: #FF4F4F;
+  width: 80px;
+  height: 80px;
+  align-self: center;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-add-task-text {
+  color: white;
+  align-self: center;
+  font-size: 48px;
+  line-height: 36px;
+}
