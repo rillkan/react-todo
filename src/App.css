@@ -1,3 +1,72 @@
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.to-do-container {
+  display: flex;
+  flex-direction: row;
+  width: 96%;
+  height: 88px;
+  background-color: #FF4F4F;
+  align-content: center;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.to-do-checkbox {
+  color: white;
+  font-size: 40px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  align-self: center;
+  line-height: 62px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.to-do-text {
+  color: white;
+  font-size: 24px;
+  height: fit-content;
+  align-self: center;
+  font-family: 'Open Sans';
+  font-weight: normal;
+  margin-left: 0px;
+  overflow-y: scroll;
+  height: fit-content;
+  max-height: 88px;
+  width: 100%
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.to-do-text::-webkit-scrollbar {
+  display: none;
+}
+
+.to-do-delete {
+  background-color: #FF4F4F;
+  border: none;
+  color: white;
+  font-size: 42px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  align-self: center;
+  line-height: 62px;
+  margin-right: 12px;
+  margin-left: auto;
+}
+
+.to-do-delete.completed {
+  background-color: #ffabab;
+}
+
 .header-container {
   display: flex;
   flex-direction: column;
